@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "heebo", sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 5rem;
+    background-color: white;
+}
+ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+h2{
+    font-size: 5rem;
+}
+a{
+    text-decoration: none;
+    font-size: 1.2rem;    
+    color: black;
+    margin-left: 5rem;
+}
+.logo{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    font-size: 1.5rem;
+    transform: translate(-50%, -50%) scale(6);
+}
+.home {
+    height: 100vh;
+    background-image: url();
+}
+.first-page{
+    height: 100vh;
+    background-color: rgb(24, 24, 24);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5%;
+}
+.first-page img {
+    height: 100%; 
+}
+.squere {
+    width:10rem;
+    height: 10rem;
+    background:rgb(52, 140, 199);
+    position: absolute;
+    top: 70%;
+    left: 70%;
+}
+
